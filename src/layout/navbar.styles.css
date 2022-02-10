@@ -1,0 +1,28 @@
+.navbar {
+  max-height: 75px;
+  box-shadow: 0 2px 5px black;
+  padding: 10px;
+}
+
+.navbar__container {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  width: 10%;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.navbar__menu li a,
+.navbar__menu li a:visited {
+  text-decoration: none;
+  color: black;
+}
