@@ -1,0 +1,21 @@
+.cocktail-item {
+  border-radius: 10px;
+  box-shadow: 3px 3px 2px black;
+  margin: 15px;
+}
+
+.cocktail-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.cocktail-item__details {
+  padding: 25px;
+}
+
+.btn {
+  padding: 5px 20px;
+  letter-spacing: 7px;
+  background-color: green;
+  color: white;
+}

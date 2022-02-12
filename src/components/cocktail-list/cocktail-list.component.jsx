@@ -5,15 +5,26 @@ import './cocktail-list.styles.css';
 // Components
 import CocktailItem from '../cocktail-item/cocktail-item.component';
 
-const CocktailList = () => {
+// Redux and react-redux
+import { connect } from 'react-redux';
+
+const CocktailList = ({ cocktails }) => {
     return(
         <div className='cocktail-list'>
-            <h1>Cocktails</h1>
+            <h1 className='align-center'>Cocktails</h1>
             <div className='cocktail-list__item-container'>
-                <CocktailItem />
+                {
+                    cocktails.map(cocktail => <CocktailItem key={cocktail.dateModified} cocktail={cocktail} />)
+                }
             </div>
         </div>
     )
 }
 
-export default CocktailList;
+const mapPropsToState = state => {
+    return {
+        cocktails: state.drinks
+    };
+}
+
+export default connect(mapPropsToState)(CocktailList);

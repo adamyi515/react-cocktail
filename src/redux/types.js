@@ -1,0 +1,1 @@
+export const GET_ONLOAD_DRINKS = 'GET_ONLOAD_DRINKS';
