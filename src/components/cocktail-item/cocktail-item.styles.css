@@ -2,6 +2,7 @@
   border-radius: 10px;
   box-shadow: 3px 3px 2px black;
   margin: 15px;
+  background-color: #fff;
 }
 
 .cocktail-item img {
@@ -15,7 +16,8 @@
 
 .btn {
   padding: 5px 20px;
-  letter-spacing: 7px;
+  letter-spacing: 5px;
   background-color: green;
   color: white;
+  text-decoration: none;
 }

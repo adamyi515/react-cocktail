@@ -3,7 +3,8 @@ import reducer from './cocktail.reducer';
 
 const initialState = {
     drinks: [],
-    isLoading: false
+    isLoading: false,
+    text: ''
 }
 
 const store = createStore(reducer, initialState);

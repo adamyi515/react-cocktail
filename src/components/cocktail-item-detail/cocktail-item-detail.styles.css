@@ -1,0 +1,13 @@
+.cocktail-item-detail {
+  margin: auto;
+  width: 80%;
+}
+
+.cocktail-item-detail__container {
+  display: flex;
+}
+
+.cocktail-item-detail__container img {
+  width: 50%;
+  margin-right: 30px;
+}

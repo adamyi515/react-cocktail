@@ -2,5 +2,10 @@
   width: 30%;
   margin: 30px auto;
   padding: 20px;
-  border: 1px solid black;
+  box-shadow: 2px 2px 2px black;
+  background-color: #fff;
+}
+
+.search-box input {
+  width: 100%;
 }

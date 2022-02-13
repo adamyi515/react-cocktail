@@ -9,6 +9,7 @@ import CocktailItem from '../cocktail-item/cocktail-item.component';
 import { connect } from 'react-redux';
 
 const CocktailList = ({ cocktails }) => {
+    
     return(
         <div className='cocktail-list'>
             <h1 className='align-center'>Cocktails</h1>
