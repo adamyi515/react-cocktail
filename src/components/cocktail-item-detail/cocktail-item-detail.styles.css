@@ -1,13 +1,17 @@
 .cocktail-item-detail {
   margin: auto;
-  width: 80%;
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 50px;
 }
 
 .cocktail-item-detail__container {
   display: flex;
+  justify-content: space-between;
 }
 
 .cocktail-item-detail__container img {
-  width: 50%;
+  width: 30%;
   margin-right: 30px;
+  border-radius: 10px;
 }
